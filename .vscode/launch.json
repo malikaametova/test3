@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Запустить программу",
+            "program": "${user-service}/dist/user.module.js", // Укажите путь к вашему файлу
+            "restart": true,
+            "console": "integratedTerminal"
+        }
+    ]
+}
